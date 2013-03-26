@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bootstrap Template</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  </head>
+  <body>
+
+<div class="navbar navbar-inverse">
+  <div class="navbar-inner">
+    <div class="container">
+ 
+      <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+ 
+      <!-- Be sure to leave the brand out there if you want it shown -->
+          <a class="brand" href="#">paomian</a>
+           <ul class="nav">
+            <li class="active">
+             <a href="#"><strong>首页</strong></a>
+            </li>
+            <li><a href="#">链接一</a></li>
+            <li><a href="#">链接二</a></li>
+           </ul>
+      <!-- Everything you want hidden at 940px or less, place within here -->
+      <div class="nav-collapse collapse">
+        <!-- .nav, .navbar-search, .navbar-form, etc -->
+           <form class="navbar-search pull-left">
+               <input type="text" class="search-query" placeholder="Search">
+           </form>
+	   </div>
+            <div class="btn-group pull-right">
+	          <button class="btn btn-success">用户</button>
+                    <button class="btn dropdown-toggle btn-success" data-toggle="dropdown">
+                      <span class="caret"></span>
+                    </button>
+                 <!-- dropdown menu links -->
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+                          <li><a tabindex="-1" href="#">Regular link</a></li>
+                          <li class="disabled"><a tabindex="-1" href="#">Disabled link</a></li>
+                          <li><a tabindex="-1" href="#">Another link</a></li>
+                          <li class="dropdown-submenu">
+                             <a tabindex="-1" href="#">More options</a>
+                                 <ul class="dropdown-menu">
+                          <li><a tabindex="-1" href="#">Regular link</a></li>
+                          <li class="disabled"><a tabindex="-1" href="#">Disabled link</a></li>
+                          <li><a tabindex="-1" href="#">Another link</a></li>
+                          <li class="dropdown-submenu">
+                                 </ul>
+                           </li>
+                        </ul>  
+                  </div>
+    </div>
+  </div>
+</div>
+
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
