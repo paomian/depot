@@ -30,14 +30,14 @@
     <a href="?page={{ list_items.previous_page_number }}">上一页</a>
 {% endif %}
 
-<span class="current">
+<span class="current" align="center" style="display:block;"> 
     第{{ list_items.number }}页，共{{ list_items.paginator.num_pages }}页
 </span>
 
 {% if list_items.has_next %}
         <a href="?page={{ list_items.next_page_number }}">下一页</a>
 {% endif %}
-<p>
+<p align="right">
 <a href="{% url 'depotapp.views.create_product' %}">新增产品</a>
 </p>
 {% endblock %}
